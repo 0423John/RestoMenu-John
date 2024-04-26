@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO JOHN'S RESTAURANT</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <div class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="appetizer1.jpg" alt="Appetizer 1">
+                <h3>Corn Cakes $10 </h3>
+                <h5>Our Corn Cakes are one of our popular appetizer recipes. Not only are these super easy to make but you can use both fresh and frozen corn. We top these perfect little cakes with honey for a hint of sweetness and queso fresco for a little salty.</h5>
+            </div>
+            <div class="menu-item">
+                <img src="appetizer2.jpg" alt="Appetizer 2">
+                <h3>Bruschetta $10</h3>
+                <h5> A simple and delicious Bruschetta Recipe with a classic tomato-basil topping. It's perfect to serve on a hot summer day and one of the best way to use up juicy, ripe, summer tomatoes! Our secret for the best tasting bruschetta? - using a mixture of oil and butter brushed onto each piece of sliced baguette for a truly delicious treat!</h5>
+            </div>
+        
+        </div>
+
+        <div class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="maincourse1.jpg" alt="Main Course 1">
+                <h3>BBQ Pizza $25 </h3> 
+                <h4> Choice of steak, chicken, or ham</h4>
+            </div>
+            <div class="menu-item">
+                <img src="maincourse2.jpg" alt="Main Course 2">
+                <h3>Brooklyn-Style Pizza $25</h3>
+                <h5>Thin and crispy traditional square Brooklyn style pizza with fresh mozzarella </h5>
+            </div>
+            <div class="menu-item">
+                <img src="maincourse3.jpg" alt="Main Course 3">
+                <h3> Crispy Fried Chicken $20 </h3>
+            </div> 
+            <div class="menu-item">
+                <img src="maincourse4.jpg" alt="Main Course 4">
+                <h3> Grilled Steak $30 </h3>
+            </div>
+
+
+
+        </div>
+
+        <div class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <img src="dessert2.jpg" alt="Dessert 2">
+                <h3>Ice Cream $1</h3>
+            </div> 
+            <div class="menu-item">
+                <img src="dessert3.jpg" alt="Dessert3"> 
+                <h3>Smoothie $2</h3>
+                <h4> Choice of mango, banana, strawberry, or chocolate</h4>
+            </div> 
+            <div class="menu-item">
+                <img src="dessert4.jpg" alt="Dessert4">
+                <h3> Chocolate cake $4 </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John's Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFBDA;
+}
+
+header {
+    background-color: #F2613F;
+    color: #FBF3D5;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Broadway;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-category {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.menu-category h2 {
+    background-color: #31363F;
+    color: #FEECE2;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align:center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+</style>
+</html>
